@@ -1,11 +1,12 @@
 body{
-    background: #ffc0cb;
+    background: linear-gradient(rgb(0, 0, 255), rgb(20, 0, 90),rgb(20, 0, 90),rgb(0, 0, 255));
 }
 
 .cabecera{
     background: #ffffff;
     border-radius: 10px;
-    margin: 5%;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 40px;
 }
 .cabecera h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +20,10 @@ body{
 }
 
 .equipo{
-    background: #d8d8d8;
+    background: #ffffff;
     border-radius: 10px;
-    margin: 5%;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 40px;
 }
 .equipo h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -41,9 +43,10 @@ body{
 }
 
 .secciones{
-    background: #ff6161;
+    background: #ffffff;
     border-radius: 10px;
-    margin: 5%;    
+    box-shadow: 10px 5px 5px black; 
+    margin-top: 40px;  
 }
 .secciones img{
     width: 80%;
@@ -57,10 +60,10 @@ body{
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
-    color: #ffffff;
+    color: #000000;
 }
 .secciones h4{
-    color: #ffffff;
+    color: #000000;
     font-size: 300%;
     padding-top: 25%;
 }
@@ -68,5 +71,5 @@ body{
     text-decoration: none;
 }
 .secciones h4:hover{
-    color: gray;
+    color: rgb(4, 0, 255);
 }
