@@ -1,0 +1,72 @@
+body{
+    background: #ffc0cb;
+}
+
+.cabecera{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 5%;
+}
+.cabecera h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.cabecera p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.equipo{
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin: 5%;
+}
+.equipo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nomEquipo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.secciones{
+    background: #ff6161;
+    border-radius: 10px;
+    margin: 5%;    
+}
+.secciones img{
+    width: 80%;
+    padding: 3%;
+    border-radius: 10px; 
+    max-width: 500px;   
+
+}
+.secciones h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    color: #ffffff;
+}
+.secciones h4{
+    color: #ffffff;
+    font-size: 300%;
+    padding-top: 25%;
+}
+.secciones a{
+    text-decoration: none;
+}
+.secciones h4:hover{
+    color: gray;
+}
