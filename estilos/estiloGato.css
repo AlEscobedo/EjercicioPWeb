@@ -1,0 +1,64 @@
+body{
+    background-color: #b237ca;
+}
+.cabecera{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 2%;
+}
+.cabecera h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.cabecera p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.subGatos{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 2%;
+}
+.subGatos h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.gatos{
+    padding: -500px;
+}
+
+.gatos p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.gato1{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 2%;
+}
+.gato2{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 2%;
+}
+.gato3{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.gatos img{
+    width: 65%;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: -20px;
+}
