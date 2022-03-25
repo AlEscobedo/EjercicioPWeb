@@ -24,6 +24,7 @@ body{
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
     margin-top: 40px;
+    width: 300px;
 }
 .equipo h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -33,11 +34,10 @@ body{
 }
 
 .nomEquipo{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;    
     padding-top: 10px;
+    width: 300px;
 }
-
 .negrita{
     font-weight: bold;
 }
@@ -47,6 +47,8 @@ body{
     border-radius: 10px;
     box-shadow: 10px 5px 5px black; 
     margin-top: 40px;  
+    width: 500px;
+    margin-bottom: 40px;
 }
 .secciones img{
     width: 80%;
