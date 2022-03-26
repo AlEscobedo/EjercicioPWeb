@@ -2,8 +2,6 @@ body{
     background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240),rgb(245, 245, 245),rgb(250, 250, 250));
 }
 
-
-
 /* TITULO */
 
     /*background*/
@@ -57,9 +55,13 @@ body{
 
 
 /* EQUIPO */
+
+    /* BACKGROUND */
 #equipo{
     background-color: rgb(255, 255, 255);
 }
+
+    /* CONTENEDOR DE INFO */
 #equipo::after{
     content: '';
     background-color: transparent;
@@ -90,36 +92,83 @@ body{
 
 
 
-.secciones{
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px rgb(0, 0, 0); 
-    margin-top: 40px;  
-    width: auto;
-    margin-bottom: 40px;
+/* SEPARADOR */
+#separador{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
-.secciones img{
-    width: 80%;
-    padding: 3%;
-    border-radius: 10px; 
-    max-width: 500px;   
+#separador .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
 
+
+
+/* SECCIONES */
+    /* GATOS */
+.seccionesGato{
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../Imagenes/Menu/fondo_seleccion_mascotas.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    position: absolute;
 }
-.secciones h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10px;
-    color: #000000;
+#texto-secciones{
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 4%;
 }
-.secciones h4{
-    color: #000000;
-    font-size: 300%;
-    padding-top: 25%;
+.seccionesGato p{
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
 }
-.secciones a{
-    text-decoration: none;
+.seccionesGato img {
+    width: 100%;
+    height: auto;
 }
-.secciones h4:hover{
-    color: rgb(4, 0, 255);
+.btn1{
+    background-color: transparent !important;
+    color: rgb(0, 238, 255) !important;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+
+
+    /* PERROS */
+.seccionesPerro{
+    width: 100%;
+    max-width: 100%;
+    background: url(../Imagenes/Menu/fondo_seleccion_perro.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 40%;
+}
+.seccionesPerro p{
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+}
+.btn2{
+    background-color: transparent !important;
+    color: rgb(0, 238, 255) !important;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 3%;
 }
