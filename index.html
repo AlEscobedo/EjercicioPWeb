@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <div class="container-fluid">
@@ -40,12 +41,14 @@
         </div>
     </nav>
 
+
+
     <!-- TITULO -->
-    <div id="ribbon" class="container-fluid">
+    <div id="contenedor_titulo" class="container-fluid">
         <div class="row" id="box-search">
             <div class="fondo_titulo text-center">
-                <div class="caption">
-                    <h1>ONG AYUDA A UN FURRO</h1>
+                <div class="texto-titulo">
+                    <h1>ONG AYUDA A UN PELUDO</h1>
                     <p>La experiencia y amor de un perro o un gato adulto rescatado puede cambiar tu vida.
                         Ellos merecen un hogar y una familia para compartir su vida,
                         conoce a nuestros amigos peludos ellos estan ansiosos de conocerte!.</p>
@@ -54,63 +57,96 @@
 
         </div>
     </div>
-    <div class="container">
-        <div class="container equipo">
-            <div class="row">
-                <div class="col">
-                    <h2>
-                        Nuestros integrantes
-                    </h2>
-                </div>
 
-            </div>
-            <div class="container nomEquipo">
-                <div class="row">
-                    <div class="col">
-                        <p class="negrita">Nombre</p>
-                        <p>Only</p>
-                        <p>Chino</p>
-                        <p>Jano</p>
+
+
+    <!-- EQUIPO -->
+    <div id="equipo" class="container-fluid">
+        <div id="presentacion-equipo" class="container w-50 pl-5">
+
+            <!-- CARRUSEL -->
+            <div id="carrusel-equipo" class="carousel slide redondear1" data-bs-ride="carousel">
+                <div class="carousel-inner text-shadow">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-sm p-3">
+                                <img src="Imagenes/Menu/jano.jpg" class="w-75 mx-auto d-block redondear" alt="">
+                            </div>
+                            <div class="col-sm p-3 text-light text-center">
+                                <h3>Alejando Escobedo</h3>
+                                <p>Encargado de Perro.html</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        <p class="negrita">Cargo</p>
-                        <p>Cargo 1</p>
-                        <p>Cargo 2</p>
-                        <p>Cargo 3</p>
+
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-sm p-3">
+                                <img src="Imagenes/Menu/erick.jpg" class="w-75 mx-auto d-block redondear" alt="">
+                            </div>
+                            <div class="col-sm p-3 text-light text-center">
+                                <h3>Erick Fernandez</h3>
+                                <p>Encargado de Gato.html</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-sm p-3">
+                                <img src="Imagenes/Menu/only.jpg" class="w-75 mx-auto d-block redondear" alt="">
+                            </div>
+                            <div class="col-sm p-3 text-light text-center">
+                                <h3>Nicolas Moreno</h3>
+                                <p>Encargado de Index.html</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <a href="#carrusel-equipo" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a href="#carrusel-equipo" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </a>
             </div>
         </div>
-        <div class="container secciones">
-            <div class="row">
-                <div class="col">
-                    <h2>
-                        Nuestras Secciones de Ayuda
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img src="Imagenes/Menu/gatos.jpg">
-                </div>
-                <div class="col">
-                    <a href="gato.html">
-                        <h4>Gatos</h4>
-                    </a>
-                </div>
+    </div>
 
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img src="Imagenes/Menu/perros.jpg">
-                </div>
-                <div class="col">
-                    <a href="perro.html">
-                        <h4>Perros</h4>
-                    </a>
-                </div>
+
+    <!-- SECCION DE AYUDA-->
+    <div class="container secciones">
+        <div class="row">
+            <div class="col">
+                <h2>
+                    Nuestras Secciones de Ayuda
+                </h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <img src="Imagenes/Menu/gatos.jpg">
+            </div>
+            <div class="col">
+                <a href="gato.html">
+                    <h4>Gatos</h4>
+                </a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Imagenes/Menu/perros.jpg">
+            </div>
+            <div class="col">
+                <a href="perro.html">
+                    <h4>Perros</h4>
+                </a>
+            </div>
+        </div>
+    </div>
     </div>
     <!-- FOOTER -->
     <script src="js/popper.min.js"></script>
