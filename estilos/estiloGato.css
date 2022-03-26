@@ -1,6 +1,10 @@
 body{
     background-color: #b237ca;
 }
+.img-size{
+    width: 40px;
+    margin: auto;    
+}
 
 .container a input{
     background-color: #9703b4;
@@ -10,7 +14,6 @@ body{
     margin-top: 10px;
     border-radius: 10px;
 }
-
 .container a input:hover{
     background-color: #ffffff;
     color: #9703b4;
@@ -20,61 +23,80 @@ body{
 .cabecera{
     background: #ffffff;
     border-radius: 10px;
-    margin: 2%;
+    margin-top: 20px;
+    max-width: 80%;        
+    margin: auto;
+    margin-top: 10px;
 }
 .cabecera h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .cabecera p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
-.subGatos{
+.subGato{
     background: #ffffff;
     border-radius: 10px;
-    margin: 2%;
+    margin: auto;
+    width: 60%;
+    max-width: 80%;
+    margin-top: 10px;
 }
-.subGatos h2{
+.subGato h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.gatos{
-    padding: -500px;
+.gato{
+    margin: auto;
+    width: 60%;
+    max-width: 80%;
+    margin-top: 10px; 
 }
 
-.gatos p{
+.gato img{
+    width: 40%; 
+    max-width: 300px;   
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;    
+    border-radius: 50px;
+}
+
+.gato p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 15px;
     text-align: left;
     font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
-.gato1{
+.gato-info{
     background: #ffffff;
-    border-radius: 10px;
-    margin: 2%;
-}
-.gato2{
-    background: #ffffff;
-    border-radius: 10px;
-    margin: 2%;
-}
-.gato3{
-    background: #ffffff;
-    border-radius: 10px;
-    margin: 2%;
-}
-
-.gatos img{
-    width: 65%;
-    max-width: 500px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: -20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border-radius: 10px;   
 }
