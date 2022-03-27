@@ -1,18 +1,5 @@
 body{
     background: linear-gradient(-45deg, #76ee52, #e7cd3c, #d52385, #4f8176);
-    animation: gradient 1s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .img-size{
@@ -28,6 +15,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    user-select: none;
 }
 .fondo_titulo:before{
     content: " ";
@@ -112,7 +100,6 @@ body{
     margin-bottom: 5px;
 }
 
-
 .perros p{
     text-align: center;    
     margin: auto;
@@ -122,3 +109,71 @@ body{
     margin-bottom: 20px;
 }
 
+.btn-open-popup{
+    position: relative;    
+    color:#b3b3b3;
+    display: block;
+    background: #5f5f5f;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 60%;
+    text-align: center;    
+}
+.contenedor-all{
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+.contenedor-all:target{
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+}
+.popup{
+    width: 800px;    
+    height: 400px;
+    position: relative; 
+    margin-top: -800px;    
+    display: flex;
+    background: white;
+}
+
+.img{
+    width: 100%;
+    max-width: 400px;
+    background-image: url(../Imagenes/Perros/perroA.jpg);
+    background-size: cover;
+}
+.contenedor-text{
+    width: 100%;
+    margin-left: 440px;
+    margin-right: 44px;
+    margin-top: 20px;    
+}
+.contenedor-text h1{
+    font-size: 30px;
+    text-align: left;
+}
+.contenedor-text p{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-right: 10%;
+    color: black;
+    text-align: left;  
+    padding: none;  
+}
+.btn-close-popup{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
