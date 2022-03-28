@@ -18,7 +18,6 @@ body{
     user-select: none;
 }
 .fondo_titulo:before{
-    content: " ";
     width: 100%;
     height: 100%;
     background: rgba(78, 78, 78, 0.123);
@@ -108,26 +107,42 @@ body{
 .sep{
     margin-bottom: 20px;
 }
-
 .btn-open-popup{
-    position: relative;    
-    color:#b3b3b3;
-    display: block;
+    color: #ffffff;
     background: #5f5f5f;
     border-radius: 50px;
     text-decoration: none;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 60%;
-    text-align: center;    
+    text-align: center;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn-open-popup:hover{
+    color: #ffffff;
+    background: #303030;
+    font-weight: bold;
 }
 .contenedor-all{
+    transform: translateY(50%, 50%);
+    margin-top: -500px;
     position: fixed;
     visibility: hidden;
     opacity: 0;
-    transition: all 600ms;
+    transition: all 600ms; 
+    background-color: black;      
 }
+.contenedor-tarjeta{
+    width: 50%;
+    height: 50%;
+    top: 0;
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    background-color: rgba(22,22,22,0.5);
+    align-items: center;
+}
+
 .contenedor-all:target{
     position: fixed;
     visibility: visible;
@@ -142,10 +157,40 @@ body{
     background: white;
 }
 
-.img{
+.img-1{
     width: 100%;
     max-width: 400px;
     background-image: url(../Imagenes/Perros/perroA.jpg);
+    background-size: cover;
+}
+.img-2{
+    width: 100%;
+    max-width: 400px;
+    background-image: url(../Imagenes/Perros/perroB.jpg);
+    background-size: cover;
+}
+.img-3{
+    width: 100%;
+    max-width: 400px;
+    background-image: url(../Imagenes/Perros/perroC.jpg);
+    background-size: cover;
+}
+.img-4{
+    width: 100%;
+    max-width: 400px;
+    background-image: url(../Imagenes/Perros/perroD.jpg);
+    background-size: cover;
+}
+.img-5{
+    width: 100%;
+    max-width: 400px;
+    background-image: url(../Imagenes/Perros/perroE.jpg);
+    background-size: cover;
+}
+.img-6{
+    width: 100%;
+    max-width: 400px;
+    background-image: url(../Imagenes/Perros/perroF.jpg);
     background-size: cover;
 }
 .contenedor-text{
@@ -170,10 +215,15 @@ body{
     position: absolute;
     right: -20px;
     top: -20px;
-    background: black;
+    background: #5f5f5f;
     color: white;
     border-radius: 50%;
     line-height: 10px;
     padding: 20px;
-    text-decoration: none;
+    text-decoration: none; 
+    transition: all 100ms;   
+}
+.btn-close-popup:hover{
+    color: #ffffff;
+    background: #303030;
 }
