@@ -91,7 +91,14 @@ body{
 .text-shadow{
     text-shadow: 0 3px 3px rgb(0, 0, 0, 0.6);
 }
-
+.color-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.color-link:hover{
+    font-weight: bold;
+    color: #ffffff;
+}
 
 
 /* SECCIONES */
@@ -104,11 +111,8 @@ body{
     background-attachment: fixed;
     display: flex;
     align-items: center;
-    padding: none;
     width: 100%;
     height: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 #texto-secciones{
     background-color: rgba(0, 0, 0, 0.459);
@@ -143,8 +147,8 @@ body{
     padding: none;
     width: 100%;
     height: auto;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .seccionesPerro p{
     color: rgb(255, 255, 255);
